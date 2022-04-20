@@ -1,0 +1,182 @@
+<div class="container-fluid">
+  <div
+    class="row mt-4"
+    style="
+      margin-left: 2rem;
+
+      margin-right: 3rem;
+      margin-bottom: 4rem;
+    "
+  >
+    <hr />
+    <div class="col shadow mb-5">
+      <div class="row mt-5">
+        <div class="col-md-12 d-flex">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide d-flex justify-content-center"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner" style="width: 100%; height: auto">
+              <div class="carousel-item active">
+                <img
+                  src="https://www.ri2c-2022.com/images/main/Banner_1920.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://www.admission.kmutnb.ac.th/sites/default/files/2022-02/Bfinal.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://www.ri2c-2022.com/images/main/Banner_1920.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <hr />
+        </div>
+      </div>
+      <div class="row mt-5 d-flex justify-content-center">
+        <div class="col-md-3">
+          <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>{{ name_club }}</mat-card-title>
+              <mat-card-subtitle>{{ group_clup }}</mat-card-subtitle>
+            </mat-card-header>
+            <img
+              mat-card-image
+              src="https://scontent.fbkk22-1.fna.fbcdn.net/v/t1.6435-9/52864503_1751474208331072_5304427826244485120_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeG89soFyFkl61IvFhGSw_TOqJRc_DZp_MColFz8Nmn8wGE8jKjfkpTgTJPmQp5-Lw9-IIHFL193ccDt80IW54SE&_nc_ohc=0MUffFhwdkUAX-9lWUn&_nc_ht=scontent.fbkk22-1.fna&oh=00_AT-b06wbOF6sAoorZGl2p-TQx6hxs8G7yStvGUF6p-9lkg&oe=62872200"
+              alt="Photo of a Shiba Inu"
+            />
+            <mat-card-content>
+              <p>
+                The Shiba Inu is the smallest of the six original and distinct
+                spitz breeds of dog from Japan. A small, agile dog that copes
+                very well with mountainous terrain, the Shiba Inu was originally
+                bred for hunting.
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button [routerLink]="['/a-news']">LIKE</button>
+              <button mat-button>SHARE</button>
+              <hr />
+              <mat-card-subtitle>{{ group_clup }}</mat-card-subtitle>
+              <mat-card-subtitle><input type="date" name="" id="" class="form-control"></mat-card-subtitle>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+        <div class="col-md-3">
+          <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>Shiba Inu</mat-card-title>
+              <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+            </mat-card-header>
+            <img
+              mat-card-image
+              src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+              alt="Photo of a Shiba Inu"
+            />
+            <mat-card-content>
+              <p>
+                The Shiba Inu is the smallest of the six original and distinct
+                spitz breeds of dog from Japan. A small, agile dog that copes
+                very well with mountainous terrain, the Shiba Inu was originally
+                bred for hunting.
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button >LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+        <div class="col-md-3">
+          <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>Shiba Inu</mat-card-title>
+              <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+            </mat-card-header>
+            <img
+              mat-card-image
+              src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+              alt="Photo of a Shiba Inu"
+            />
+            <mat-card-content>
+              <p>
+                The Shiba Inu is the smallest of the six original and distinct
+                spitz breeds of dog from Japan. A small, agile dog that copes
+                very well with mountainous terrain, the Shiba Inu was originally
+                bred for hunting.
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

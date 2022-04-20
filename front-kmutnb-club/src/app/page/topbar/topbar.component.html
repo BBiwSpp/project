@@ -1,0 +1,36 @@
+<nav
+  class="navbar navbar-expand-md navbar-light"
+  style="padding: 10px;background-color: rgb(255, 132, 0);"
+>
+  <a class="navbar-brand" [routerLink]="['/home']"
+    >KMUT<a style="color: red">N</a><a style="color: green">B</a> CLUB</a
+  >
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]="['/home']">หน้าแรก</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/register-group']">รับสมัคร</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/relations']">ประชาสัมพันธ์</a>
+      </li>
+      <a class="nav-link" [routerLink]="['/groups-clubs']"> ชมรม / กลุ่ม </a>
+    </ul>
+  </div>
+  <div style="padding-right: 1rem">
+    <mat-icon>login</mat-icon>
+  </div>
+</nav>

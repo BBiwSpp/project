@@ -1,0 +1,7 @@
+.container-fluid {
+  background-image: url("https://webunwto.s3.eu-west-1.amazonaws.com/2020-01/sport-congresse.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh
+}
